@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episodes list components renders UI correctly 1`] = `
+<DocumentFragment>
+  <ul
+    class="episodes"
+  >
+    <li
+      class="episode"
+    >
+      <img
+        alt="Image from episode "Episode foobar""
+        class="image episode-image"
+        src="http://foo.bar/episode-image.png"
+      />
+      <div
+        class="info"
+      >
+        <h3>
+          Episode foobar
+        </h3>
+        <h4>
+          10/10/2010
+        </h4>
+      </div>
+      <ul
+        class="characters"
+      >
+        <li
+          class="character"
+          title="Jane Foo"
+        >
+          <img
+            alt="Picture of Jane Foo"
+            class="image character-image"
+            src="http://foo.bar/character-image.png"
+          />
+        </li>
+      </ul>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

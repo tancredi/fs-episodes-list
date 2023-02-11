@@ -39,11 +39,10 @@ export const EpisodeListItem: FunctionComponent<{ episode: Episode }> = ({
 export const CharacterThumbnail: FunctionComponent<{
   character: Episode["characters"][number];
 }> = ({ character }) => (
-  <li className={styles.character}>
+  <li className={styles.character} title={character.name}>
     <img
       className={classNames(styles.image, styles["character-image"])}
       src={character.img_url}
-      title={character.name}
       alt={`Picture of ${character.name}`}
     />
   </li>

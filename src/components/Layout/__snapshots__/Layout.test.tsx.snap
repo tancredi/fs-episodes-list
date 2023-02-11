@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component renders UI correctly 1`] = `
+<DocumentFragment>
+  <img
+    class="background"
+    src="/mock/asset/space-background@2x.jpg"
+  />
+  <div
+    class="page"
+  >
+    <img
+      alt="Final Space logo"
+      class="logo"
+      src="/mock/asset/logo@2x.png"
+    />
+    Foo bar
+  </div>
+</DocumentFragment>
+`;
