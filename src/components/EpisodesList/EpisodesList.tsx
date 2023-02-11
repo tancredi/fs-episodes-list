@@ -20,11 +20,12 @@ export const EpisodeListItem: FunctionComponent<{ episode: Episode }> = ({
     <img
       src={episode.img_url}
       className={classNames(styles.image, styles["episode-image"])}
+      alt={`Image from episode "${episode.name}"`}
     />
 
     <div className={styles.info}>
-      {episode.name}
-      {episode.air_date}
+      <h3>{episode.name}</h3>
+      <h4>{episode.air_date}</h4>
     </div>
 
     <ul className={styles.characters}>
@@ -42,6 +43,8 @@ export const CharacterThumbnail: FunctionComponent<{
     <img
       className={classNames(styles.image, styles["character-image"])}
       src={character.img_url}
+      title={character.name}
+      alt={`Picture of ${character.name}`}
     />
   </li>
 );

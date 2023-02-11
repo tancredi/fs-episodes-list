@@ -33,6 +33,6 @@
       "src/*": ["src/*"]
     }
   },
-  "include": ["pages"],
+  "include": ["pages", "next-env.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,24 @@
+.background {
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  opacity: 0.1;
+  filter: blur(5px);
+  object-fit: cover;
+  margin: -5%;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 300px;
+  display: block;
+  margin: 60px auto;
+}
