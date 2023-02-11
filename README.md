@@ -2,7 +2,7 @@
 
 > A React application that uses the [Final Space API](https://finalspaceapi.com/docs/) to display a list of episodes.
 
-![./docs/preview.png](Screenshot of the application)
+![Screenshot of the application](./docs/preview.png)
 
 The application uses Next.js + TypeScript and Jest for unit tests.
 
