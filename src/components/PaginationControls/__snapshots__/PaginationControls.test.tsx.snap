@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination controls component renders UI correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <a
+      href="/?page=0"
+    >
+      « Previous
+    </a>
+    <div
+      class="current"
+    >
+      Page 2 of 3
+    </div>
+    <a
+      href="/?page=2"
+    >
+      Next »
+    </a>
+  </div>
+</DocumentFragment>
+`;

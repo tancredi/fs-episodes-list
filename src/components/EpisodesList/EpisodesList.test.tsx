@@ -26,7 +26,7 @@ const MOCK_EPISODE: Episode = {
   img_url: "http://foo.bar/episode-image.png",
 };
 
-describe("Episodes list components", () => {
+describe("Episodes list component", () => {
   it("renders UI correctly", () => {
     expect(
       render(<EpisodesList episodes={[MOCK_EPISODE]} />).asFragment()
