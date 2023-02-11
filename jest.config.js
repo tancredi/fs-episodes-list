@@ -2,6 +2,7 @@ module.exports = {
   roots: ["src"],
   moduleNameMapper: {
     "\\.(css)$": "identity-obj-proxy",
+    "src/(.*)": "<rootDir>/src/$1",
   },
   preset: "ts-jest",
   resolver: "./jest/asset-resolver.js",
