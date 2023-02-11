@@ -57,7 +57,7 @@
 
 .episode-image {
   width: 200px;
-  height: 190px;
+  height: 170px;
 }
 
 .characters {
@@ -70,8 +70,8 @@
 }
 
 .character {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: 10px;
   margin-bottom: 10px;
 }

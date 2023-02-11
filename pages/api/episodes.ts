@@ -8,7 +8,7 @@ import { paginate } from "src/utils/pagination";
 import axios from "axios";
 
 const HOUR_MS = 1000 * 60 * 60;
-const PAGE_SIZE = 4;
+const PAGE_SIZE = 10;
 
 export interface GetEpisodesApiResponse {
   episodes: Episode[];
