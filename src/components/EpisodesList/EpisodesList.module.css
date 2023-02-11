@@ -29,14 +29,14 @@
 
 @media (hover: hover) {
   .episode:hover {
-    transform: rotate3d(1, 0, 0, 1deg) scale(1.08);
+    transform: rotate3d(1, 0, 0, 1deg) scale(1.05);
   }
 }
 
 .info {
   flex: 1;
   padding: 30px;
-  min-width: 120px;
+  min-width: 180px;
   padding-right: 0;
 }
 

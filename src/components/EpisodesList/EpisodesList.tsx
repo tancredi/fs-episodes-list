@@ -2,6 +2,7 @@ import type { FunctionComponent } from "react";
 import classNames from "classnames";
 import type { Episode } from "src/types/episodes";
 import styles from "./EpisodesList.module.css";
+import dayjs from "dayjs";
 
 export const EpisodesList: FunctionComponent<{ episodes: Episode[] }> = ({
   episodes,
@@ -25,7 +26,9 @@ export const EpisodeListItem: FunctionComponent<{ episode: Episode }> = ({
 
     <div className={styles.info}>
       <h3>{episode.name}</h3>
-      <h4>{episode.air_date}</h4>
+      <h4>
+        {dayjs(episode.air_date, "MM/DD/YYYY").format("dddd DD MMMM YYYY")}
+      </h4>
     </div>
 
     <ul className={styles.characters}>

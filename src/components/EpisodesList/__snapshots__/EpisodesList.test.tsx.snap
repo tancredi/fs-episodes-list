@@ -20,7 +20,7 @@ exports[`Episodes list component renders UI correctly 1`] = `
           Episode foobar
         </h3>
         <h4>
-          10/10/2010
+          Sunday 10 October 2010
         </h4>
       </div>
       <ul

@@ -45,10 +45,13 @@ describe("Episodes list component", () => {
   });
 
   it("renders expected episode info", () => {
-    const { getByText } = render(<EpisodesList episodes={[MOCK_EPISODE]} />);
+    const airDate = "10/12/2000";
+    const { getByText } = render(
+      <EpisodesList episodes={[{ ...MOCK_EPISODE, airDate }]} />
+    );
 
     getByText(MOCK_EPISODE.name);
-    getByText(MOCK_EPISODE.air_date);
+    getByText("Sunday 10 October 2010");
   });
 
   it("renders the main episodes’ image", () => {
